@@ -99,7 +99,7 @@ cp topology_detector_pox.py ~/pox/ext/
 
 ```
 cd ~/pox
-./pox.py log.level --ERROR openflow.discovery topology_detector_pox
+python3.9 ./pox.py openflow.discovery topology_detector_pox
 ```
 
 ### Terminal 2 (Mininet)
